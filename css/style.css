@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+
+}
+#logo a{
+    color:#82ae46;
+    font-size: 20px; 
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+ 
+}
+li{
+    list-style-type:none;
+}
+ul{
+    float: right;
+}
+nav ul li{
+    float: left;
+    margin-left: 40px;
+}
+#logo{
+    float: left;
+}
+nav{
+    width: 80%;
+    margin: 10px auto;
+    height: 30px;
+}
+header{
+    background-image: url(../images/bg_1.jpg);
+    background-size: cover;
+    height: 600px;
+    clear: both;
+    background-position:right bottom;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;   */
+}
+#layer{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#headercaption{
+    width: 80%;
+    height: 200px;
+    text-align: center;
+}
+#headercaption h2{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 80px;
+    color: white;
+}
+button{
+    background-color: #82ae46;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    padding: 10px 0px
+}
+#headercaption p, button{
+    font-family: "Inter", sans-serif;
+    color: white;
+   
+}
+header p{
+    font-size: 15px;
+}
+#categories{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 60px auto;
+}
+#cat1,#cat3,#cat4,#cat5,#cat6{
+    width: 32%;
+    height: 250px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+#cat1{
+    background-image: url(../images/category-1.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#cat3{
+    background-image: url(../images/category-3.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#cat4{
+    background-image: url(../images/category-4.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#cat5{
+    background-image: url(../images/category-5.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#cat6{
+    background-image: url(../images/category-6.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+p{
+    color: black;
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
+}
+#cat2{
+    text-align: center;
+    width: 32%;
+    height: 250px;
+  
+}
+.cattitle{
+    background-color: #82ae46;
+    width: 25%;
+    height: 20px;
+    padding: 10px 5px;
+    text-align: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+#products p,h2{
+    
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+#products h2{
+    font-size: 40px;
+}
+.item img{
+    width: 200px;
+    height: 200px;
+}
+.item{
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+
+
+}
+#items{
+    width: 100%;
+    height: 1150px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-evenly;
+    justify-content:space-evenly;
+   
+}
+footer{
+    clear: both;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+footer div{
+    width: 300px;
+    height: 200px;
+}
+footer h3 ,li{
+    font-family: "Inter", sans-serif;
+}
+.items2{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-flow: column wrap;
+}
+.items2 ul li{
+   margin-top: 10px;
+}
+
